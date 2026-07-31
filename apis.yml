@@ -1,8 +1,26 @@
 aid: neuralink
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neuralink.png
 name: Neuralink
-description: 'Neuralink is a company surfaced as a portfolio company of craft-ventures, founders-fund,
-  gv, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector:
-  frontier-tech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Neuralink is a neurotechnology company pioneering implantable brain-computer interfaces (BCIs)
+  intended to restore autonomy to people with unmet medical needs and, longer term, to expand human capability.
+  Its flagship device, the N1 Implant, is a surgically embedded array of thin, flexible threads placed by a
+  purpose-built surgical robot to record and stimulate neural activity, paired with an app that lets users
+  control external devices. Neuralink is a frontier-tech company backed by Craft Ventures, Founders Fund, GV
+  and Lightspeed Venture Partners. It publishes no public developer API, SDK, or developer portal; its only
+  public machine-readable surfaces are a security.txt vulnerability-disclosure record and standard web/DNS
+  security posture. This profile was surfaced from VC portfolio data and enriched with real probed security
+  artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/neuralink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Frontier Tech
+- Brain Computer Interface
+- Neurotechnology
+- Medical Devices
+- Neuroscience
+- Implantable Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://neuralink.com
+- type: WellKnown
+  name: Well-Known Discovery Index
+  url: well-known/neuralink-well-known.yml
+- type: SecurityTxt
+  name: security.txt
+  url: well-known/neuralink-security.txt
+- type: DomainSecurity
+  name: Domain Security Posture
+  url: security/neuralink-domain-security.yml
+- type: VulnerabilityDisclosure
+  name: Vulnerability Disclosure Program
+  url: security/neuralink-vulnerability-disclosure.yml
+- type: Security
+  name: Vulnerability Disclosure Policy
+  url: https://neuralink.com/vulnerability-disclosure/
+
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
