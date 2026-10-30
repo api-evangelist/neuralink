@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Neuralink is a company surfaced as a portfolio company of craft-ventures, founders-fund, gv, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment pipeline.
+Neuralink is a neurotechnology company pioneering implantable brain-computer interfaces (BCIs) intended to restore autonomy to people with unmet medical needs and, longer term, to expand human capability. Its flagship device, the N1 Implant, is a surgically embedded array of thin, flexible threads placed by a purpose-built surgical robot to record and stimulate neural activity, paired with an app that lets users control external devices. Neuralink is a frontier-tech company backed by Craft Ventures, Founders Fund, GV and Lightspeed Venture Partners. It publishes no public developer API, SDK, or developer portal; its only public machine-readable surfaces are a security.txt vulnerability-disclosure record and standard web/DNS security posture. This profile was surfaced from VC portfolio data and enriched with real probed security artifacts.
 
-Backed by: craft-ventures, founders-fund, gv, lightspeed-venture-partners — https://neuralink.com
+**Areas:** Company · Frontier Tech · Brain-Computer Interface · Neurotechnology · Medical Devices · Neuroscience · Implantable Devices
+
+## Neuralink on APIs.io
+
+Everything profiled for Neuralink is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/neuralink/](https://apis.io/providers/neuralink/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Neuralink Domain Security](https://apis.io/security/neuralink/neuralink-domain-security/)
+- [Neuralink Vulnerability Disclosure](https://apis.io/security/neuralink/neuralink-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://neuralink.com)
+- [Blog](https://neuralink.com/updates/)
+- [Security](https://neuralink.com/vulnerability-disclosure/)
+
+## API Evangelist rating
+
+**Kin Score 6.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/neuralink/](https://apis.io/providers/neuralink/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Neuralink: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/neuralink/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
